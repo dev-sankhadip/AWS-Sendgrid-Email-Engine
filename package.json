@@ -1,0 +1,23 @@
+{
+  "name": "mailmerge",
+  "version": "1.0.0",
+  "description": "It is a proper working of a mail merge using AWS SES and NodeJS. I'll be creating a proper configurable templates for different working scenarios",
+  "main": "app.js",
+  "dependencies": {
+    "@sendgrid/mail": "^7.5.0",
+    "aws-sdk": "^2.948.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
